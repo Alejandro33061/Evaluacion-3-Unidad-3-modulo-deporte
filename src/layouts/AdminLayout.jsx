@@ -18,9 +18,8 @@ function AdminLayout() {
           <Nav className="me-auto">
             <Link className="nav-link" to="/admin/dashboard">Dashboard</Link>
             <Link className="nav-link" to="/admin/users">Usuarios</Link>
-            
-            {/* 👇 AQUÍ ESTÁ EL NUEVO ENLACE DE DEPORTES 👇 */}
-            <Link className="nav-link" to="/admin/deportes"></Link>
+
+            <Link className="nav-link" to="/admin/deportes">Deportes</Link>
             
             <Link className="nav-link" to="/admin/calendario">Calendario</Link>
             <Link className="nav-link" to="/admin/perfil">Mi Perfil</Link>
